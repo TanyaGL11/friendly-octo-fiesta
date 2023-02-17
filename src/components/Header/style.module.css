@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*padding: 40px;*/
+  background-color: rgb(9, 157, 190);
+  justify-content: space-between
+}
+.title {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+}
+.action {
+  padding: 20px;
+  margin: 20px;
+}
+.button {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: white;
+  color: #2b9ddb;
+  padding: 10px;
+  margin: 20px;
+  
+}

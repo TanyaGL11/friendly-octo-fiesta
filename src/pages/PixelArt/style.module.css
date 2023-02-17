@@ -1,0 +1,12 @@
+.drawingPannel {
+  border: 1px solid gray;
+}
+
+.row {
+  display: flex;
+}
+
+.pixel {
+  width: 20px;
+  height: 20px;
+}

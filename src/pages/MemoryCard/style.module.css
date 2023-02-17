@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 700px;
+  flex-wrap: wrap;
+  border: 1px solid gray;
+  padding: 10px;
+  height: 560px;
+}
+
+.card {
+  width: 160px;
+  height: 160px;
+  cursor: pointer;
+}
+
+img {
+  height: 180px;
+  width: 160px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 820px;
+}
+
+.inactive {
+  opacity: 0;
+}

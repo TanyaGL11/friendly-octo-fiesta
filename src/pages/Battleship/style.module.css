@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 40px;
+  
+    background-color: rgb(9, 157, 190);
+    color: white;
+    font-size: 36px;
+  }
+  
+  
+  
+  .info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+  }
+  /*CELL*/
+  .cell {
+    position: relative;
+  }
+  
+  .offended {
+    background-color: cadetblue;
+  }
+  
+  .square {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .cross {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  /*Boarf*/
+  .row {
+    display: flex;
+  }
+  .main {
+    flex-direction: row-reverse;
+  }

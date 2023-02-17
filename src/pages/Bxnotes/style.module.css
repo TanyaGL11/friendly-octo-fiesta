@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #eeeeee;
+}
+
+#root {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.panel {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(9, 157, 190);
+    /*background-color: field-color;/*defaultParams.*/
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 60px;
+}
+.messageStyle {
+    text-align: center;
+    font-size: 43px;
+    padding-top: 65px;
+    color: rgb(9, 157, 190);
+}
+.gameField {
+    width: 600px;
+    height: 600px;
+    background-color:  #fff;
+    cursor: crosshair;
+    position: relative;
+}
+.panelstyle {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(9, 157, 190);
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 60px;
+}

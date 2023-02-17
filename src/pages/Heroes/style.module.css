@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  flex-direction: column;
+  padding: 0 20px 20px;
+}
+
+.button {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  background: #2b9ddb;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  width: 400px;
+  height: 600px;
+  border: 1px solid #2b9ddb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+}
+
+.card__icon {
+  width: 20px;
+  height: 20px;
+}
+.namecard {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 700;
+  color: #2b9ddb;
+}

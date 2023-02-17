@@ -1,0 +1,25 @@
+.board {    
+    display: flex;
+    width: 130px;
+    flex-wrap: wrap;
+   
+}
+.square {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.game {
+    top: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.status {
+    width: 300px;
+}

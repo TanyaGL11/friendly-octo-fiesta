@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  min-width: 300px;
+}
+
+.input,
+.button {
+  height: 32px;
+  border-radius: 8px;
+  padding: 0 8px;
+}
+
+.button {
+  font-size: 16px;
+  border: 2px solid #2b9ddb;
+  background-color: transparent;
+  font-weight: 800;
+}
+
+.mainButton {
+  background-color: #2d97cf;
+  color: rgb(247, 243, 243);
+  border: none;
+}

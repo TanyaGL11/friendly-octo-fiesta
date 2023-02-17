@@ -1,0 +1,33 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.button {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  background: #2b9ddb;
+  padding: 10px;
+}
+
+.canvas {
+  position: relative;
+  border: 5px solid black;
+  width: 585px;
+  height: 440px;
+}
+
+.apple {
+  display: none;
+}
+
+.gameOver {
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
